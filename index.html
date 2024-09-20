@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
-
-		<title>Title in the tab</title>
-
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NASA APOD - Astronomy Picture of the Day</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				text-align: center;
+				background-color: #f0f0f0;
+				margin: 0;
+				padding: 0;
+			}
+			#apod-container {
+				margin-top: 20px;
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			.error {
+				color: red;
+				font-size: 20px;
+			}
+		</style>
 		<!-- external CSS link -->
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css">
@@ -20,7 +37,7 @@
 		<button type="button" name="button">Get Picture</button>
 
 		<h3>Name?</h3>
-		<img src="img/pokemon.jpeg" alt="">
+		<img src="./img/discover.png" alt="pic displays here">
 		<p>Explanation</p>
 
 		<iframe src="" frameborder="0"></iframe>

@@ -11,9 +11,10 @@
 /* LAYOUT
 /*******************************************/
 img{
+  background-image: ;
   display: block;
-  height: 400px;
-  width: 500px;
+  max-height: auto;
+  max-width: 100%;
   margin: 0 auto;
   border-radius: 5px;
 }
@@ -23,7 +24,7 @@ img{
 /* ADDITIONAL STYLES
 /*******************************************/
 body{
-  margin: 100px;
+  margin: 0 100px;
   font-family: 'Roboto', sans-serif;
 
 }
