@@ -1,4 +1,4 @@
-# My Awesome Project
+# StarGazer Society APOD Web App
 Explore the wonders of space by using a website powered by the NASA API. Select any date to instantly access the captivating photo of the day, complete with its title and detailed explanation. Embark on an educational journey through the universe today!
 **Link to project:** 
 
